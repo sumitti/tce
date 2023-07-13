@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            background-color: rgba(71, 175, 255, 0.5);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            margin-bottom: 20%;
+            margin-left: 25%;
+            margin-right: 30%;
+            margin-top: 5%;
+            font-size: large;
+            background-image: url(https://media.istockphoto.com/id/1360927961/photo/abstract-background-with-interweaving-of-colored-lines-and-dots-network-connection-structure.jpg?s=612x612&w=0&k=20&c=UTu0m3kCMm6f1kien9TNCrFtliESKUMrAeyKkI5s56I=);
+            color: whitesmoke;
+            box-shadow: inset 0 -3em 3em black,
+                0 0 0 2px black,
+                0.3em 0.3em 1em black;
+        }
+    </style>
+    <script></script>
+    <title>SURVEY FORM</title>
+</head>
+
+<body>
+    <div class="survey form">
+        <form action="/thankyou.html">
+            <fieldset style="border-radius: 20px;">
+                <legend style="font-size: x-large;font-weight: bold;" align="center">SURVEY FORM</legend>
+                <label style="font-weight: bold;" for="name">NAME:</label>
+                <input type="name" id="name" placeholder="Enter your Name"><br><br>
+                <label style="font-weight: bold;" for="email">Email id:</label>
+                <input type="email" id="email" placeholder="abcd@gmail.com"> <br><br>
+                <label style="font-weight: bold;" for="age-label">Age:</label>
+                <input id="age" type="number" placeholder="Age"> <br><br>
+                <label style="font-weight: bold;" for="password">Password:</label>
+                <input type="password" id="password" required><br><br>
+                <b> Which option best describe your current role?</b>
+                <select id="role">
+                    <option value="student">Student</option>
+                    <option value="parents">Parents</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>>
+                </select><br><br>
+                <b> How likely is that you would recommend this <br>course to a friend ?</b>
+                <input type="checkbox" id="definetly" name="option1" value="Definetly">
+                <label for="definetly">Definetly</label>
+                <input type="checkbox" id="may be" name="option1" value="may be">
+                <label for="may be">May be</label>
+                <input type="checkbox" id="not sure" name="option1" value="not sure">
+                <label for="not sure">Not Sure</label><br><br>
+                <b>What do you like most in the course:
+                </b> <select id="course">
+                    <option value="select">Select an option</option>
+                    <option value="select">HTML</option>
+                    <option value="select">CSS</option>
+                    <option value="select">JAVA.SRC</option>
+
+                </select><br><br>
+                <b> Things Tried should be improved in the future:<br></b>
+                <input type="checkbox" id="Front-End projects" name="option1" value="Front-End projects">
+                <label for="definetly">Front-End projects</label><br>
+                <input type="checkbox" id="Back-End projects" name="option2" value="Back-End projects">
+                <label for="may be">Back-End projects</label><br>
+                <input type="checkbox" id="Data-Visualisation" name="option3" value="Data-Visualisation">
+                <label for="not sure">Data-Visualisation</label><br><br>
+                <button
+                    style="border-radius: 5px;font-size: medium;font-weight: 700; background-color: rgb(237, 27, 97); color: white;"
+                    type="submit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button
+                    style="border-radius: 5px; background-color: rgb(243, 1, 82); color: white; font-size: medium;font-weight: 700;  "
+                    type="reset">RESET</button>
+
+
+            </fieldset>&nbsp;
+
+        </form>
+    </div>
+</body>
+
+</html>
